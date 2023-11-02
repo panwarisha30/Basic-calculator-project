@@ -22,6 +22,9 @@
     background-color:lavender;
     padding:15px;
     border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
     box-shadow: inset 5px 5px 12px #fff,inset 5px 5px 12px rgba(0, 0, 0, 0.14); /*inset for inner shadow effect and black color for outside shadow effect.*/
     display: grid; /* grid is used to give the table like structure to the calculator.*/
     grid-template-columns: repeat(4,100px); /* after every 4 columns ,the columns will repeat itself and with size 100px*/
@@ -52,13 +55,13 @@ button
     box-shadow: -5px -5px 12px #fff, 5px 5px 12px rgb(0,0,0,0.14);
     border-radius: 30%;
     border:none;
-    margin:10px auto;/* 8px is for top and bottom and auto is for left and write*/ 
+    margin:8px auto;/* 8px is for top and bottom and auto is for left and write*/ 
 
 }
 .equal
 {
-    width:115px;
-    border-radius: 60px;
-    margin:5px 10px;
+    width:90px;
+    border-radius: 90px;
+    margin:5px 5px;
     background-color: hotpink;
 }
