@@ -7,7 +7,7 @@
     font-weight: bold;
     font-size:22px;
     color:teal;
-    background-color: aliceblue;
+    background-color:aliceblue;
 }
 .container
 {
@@ -19,7 +19,7 @@
 }
 .calculator
 {
-    background-color: aliceblue;
+    background-color:lavender;
     padding:15px;
     border-radius: 30px;
     box-shadow: inset 5px 5px 12px #fff,inset 5px 5px 12px rgba(0, 0, 0, 0.14); /*inset for inner shadow effect and black color for outside shadow effect.*/
@@ -30,7 +30,7 @@ input{
     grid-column: span 4; /*It will span the 4 columns together , we have done it to show the result part*/
     height: 50px;
     width:360px;
-    color:aliceblue;
+    color:teal;
     border:none;
     box-shadow: inset -5px -5px 12px #fff, inset 5px 5px 12px rgb(0,0,0,0.14);/* To give shadow inside we have used inset*/
     border-radius: 30px;
@@ -60,4 +60,5 @@ button
     width:115px;
     border-radius: 60px;
     margin:5px 10px;
+    background-color: hotpink;
 }
